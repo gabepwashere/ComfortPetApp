@@ -10,6 +10,8 @@ import android.view.View;
 
 public class MyCat extends AppCompatActivity {
 
+    //this is hard coded for testing purposes until we can get the actual
+    // battery level from the raspi
     public int catBattery = 10;
     Image imageCatRED;
     Image imageCatREDLight;
@@ -25,6 +27,9 @@ public class MyCat extends AppCompatActivity {
         Intent intent = new Intent(this, WifiSettings.class);
         startActivity(intent);
     }
+    /* This is a god damn nightmare, this is the if else statement to start getting the
+    specific image to show according the battery way up above which needs to be able to
+    update based on the actual battery level.
     public void showcatbatteryimage()
     {
         //we need to have the visibility of all 4 images set to
@@ -46,4 +51,5 @@ public class MyCat extends AppCompatActivity {
             //the statement to show imageCatRED
         }
     }
+    */
 }

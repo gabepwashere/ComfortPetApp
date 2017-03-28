@@ -8,14 +8,15 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
+    <!--This is the Home Header -->
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/homeHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:contentDescription="catHomeConnected"
+        android:contentDescription="homeHeader"
         android:fontFamily="sans-serif"
         android:text="Home"
         android:textColor="#ffffffff"
@@ -27,6 +28,8 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,UnusedAttribute" />
 
+    <!--This is the button that take you to Application Information
+    upon click-->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -43,6 +46,8 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="HardcodedText" />
 
+    <!--The Image of the Cat, this is supposed to be shown when the
+    Cat is connected-->
     <ImageView
         android:id="@+id/homecatConnected"
         android:layout_width="255dp"

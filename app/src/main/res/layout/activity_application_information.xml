@@ -43,6 +43,7 @@
         app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintVertical_bias="0.196" />
 
+    <!--This is the Text to let them know who Developed the App-->
     <TextView
         android:id="@+id/textView5"
         android:layout_width="341dp"
@@ -59,6 +60,7 @@
         app:layout_constraintHorizontal_bias="0.296"
         app:layout_constraintVertical_bias="0.289" />
 
+    <!--This is the Text for the Course-->
     <TextView
         android:id="@+id/textView6"
         android:layout_width="338dp"
@@ -75,6 +77,7 @@
         app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintVertical_bias="0.42" />
 
+    <!--This is the Text for Purpose -->
     <TextView
         android:id="@+id/textView7"
         android:layout_width="339dp"
@@ -91,6 +94,7 @@
         app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintVertical_bias="0.53" />
 
+    <!--This is the Text to acknowledge the Legend-->
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -107,6 +111,7 @@
         app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintVertical_bias="0.65" />
 
+    <!--This is the Text to email so and so to get the source code...-->
     <TextView
         android:id="@+id/textView9"
         android:layout_width="339dp"

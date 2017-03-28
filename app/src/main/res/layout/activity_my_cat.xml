@@ -8,6 +8,13 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
+    <!--Restart Cat Button, is meant to force the raspi to restart itself
+    This is gonna take some work todo, considering it will need a 'on click' then from there
+    will have to send a commadn to the raspi to restart.
+
+    Possibly need to move this button
+    to another location considering what it does, or atleast have a pop-up have
+    the user confirm that they want to restart or not.-->
     <Button
         android:id="@+id/restartCatButton"
         android:layout_width="121dp"
@@ -26,6 +33,7 @@
         app:layout_constraintVertical_bias="0.342"
         tools:ignore="HardcodedText" />
 
+    <!--Locate Cat Button, Is meant to Call the Cat, force it to meow -->
     <Button
         android:id="@+id/locateCatButton"
         android:layout_width="wrap_content"
@@ -44,6 +52,7 @@
         app:layout_constraintVertical_bias="0.724"
         tools:ignore="HardcodedText" />
 
+    <!--Wifi Settings Button, Leads to a Wifi Settings Page -->
     <Button
         android:id="@+id/wifiSettingsButton"
         android:layout_width="wrap_content"
@@ -63,6 +72,7 @@
         app:layout_constraintVertical_bias="0.724"
         tools:ignore="HardcodedText" />
 
+    <!-- My Cat Header Text -->
     <TextView
         android:id="@+id/myCatHeader"
         android:layout_width="wrap_content"
@@ -83,6 +93,7 @@
         app:layout_constraintVertical_bias="0.017"
         tools:ignore="HardcodedText" />
 
+    <!-- Image for Cat Blue -->
     <ImageView
         android:id="@+id/imageCatRED"
         android:layout_width="163dp"
@@ -102,6 +113,7 @@
         app:srcCompat="@drawable/catred"
         tools:ignore="HardcodedText" />
 
+    <!-- Image for Cat Light Red -->
     <ImageView
         android:id="@+id/imageCatREDLight"
         android:layout_width="162dp"
@@ -121,6 +133,7 @@
         app:srcCompat="@drawable/catredlight"
         tools:ignore="HardcodedText" />
 
+    <!-- Image for Cat Blue -->
     <ImageView
         android:id="@+id/imageCatBLUE"
         android:layout_width="164dp"
@@ -140,6 +153,7 @@
         app:srcCompat="@drawable/catblue"
         tools:ignore="ContentDescription,HardcodedText" />
 
+    <!-- Image for Cat Light Blue -->
     <ImageView
         android:id="@+id/imageCatBLUELight"
         android:layout_width="163dp"

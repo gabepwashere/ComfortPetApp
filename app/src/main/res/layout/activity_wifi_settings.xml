@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="ist440wsec2_team5.comfortpetapp.WifiSettings">
 
+    <!--This is Header of the Page, Do not bother this-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -26,6 +27,7 @@
         app:layout_constraintVertical_bias="0.017"
         tools:ignore="HardcodedText" />
 
+    <!--This is the text for the Current Wifi Network Sub-Header -->
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
@@ -45,6 +47,8 @@
         app:layout_constraintVertical_bias="0.163"
         tools:ignore="HardcodedText" />
 
+    <!--This is temporary and will be replaced by the Current Network,
+    This can be done by using a fill... maybe-->
     <TextView
         android:id="@+id/textView11"
         android:layout_width="357dp"
@@ -63,6 +67,7 @@
         app:layout_constraintVertical_bias="0.244"
         tools:ignore="HardcodedText" />
 
+    <!--This is the sub header for Enter Wifi Network-->
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
@@ -82,6 +87,7 @@
         app:layout_constraintVertical_bias="0.354"
         tools:ignore="HardcodedText" />
 
+    <!--This is the fill in text area for Wifi Network Name-->
     <EditText
         android:id="@+id/editText"
         android:layout_width="313dp"
@@ -101,6 +107,7 @@
         app:layout_constraintVertical_bias="0.451"
         tools:ignore="HardcodedText" />
 
+    <!--This is the subheader for Wifi Network Password-->
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
@@ -120,6 +127,7 @@
         app:layout_constraintVertical_bias="0.549"
         tools:ignore="HardcodedText" />
 
+    <!--This is the fill in text area for Wifi Network Name-->
     <EditText
         android:id="@+id/editText2"
         android:layout_width="317dp"
@@ -138,4 +146,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.659"
         tools:ignore="HardcodedText" />
+
+    <!--We still need to add a button that will send the fill in text areas to the raspi
+    so that it can connect to the wifi network.
+    For now, get a button that will send the filled in text to a location, maybe a txt file
+    that can save to a local folder-->
 </android.support.constraint.ConstraintLayout>
